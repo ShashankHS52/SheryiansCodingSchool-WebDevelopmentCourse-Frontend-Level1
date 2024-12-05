@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;   
+}
+#nav h3{
+    font-size: 16px;
+    border: 2px solid black;
+    font-weight: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav-part1 i{
+    font-size: 16px;
+    border: 2px solid black;
+    font-weight: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+button{
+    font-size: 15px;
+    border: 2px solid black;
+    font-weight: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+#btn2{
+    background-color :red;
+    border: none;
+    color: white;
+}
+
+#main>h1{
+    font-size: 170px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    height:300px;
+    width: 300px;
+    object-fit:cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#foot{
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+#div-right{
+    position: absolute;
+    top: 89%;
+    left: 90%;
+    justify-items: center;
+}
+#icon1{
+    font-size: 26px;
+}   
+#div-right h4{
+    font-size: 16px;   
+}
+
+#skip{
+    position: absolute;
+    top: 88%;
+    left: 46%;
+    font-size: 100px;
+}
